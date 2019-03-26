@@ -1,16 +1,53 @@
+*{
+	box-sizing: border-box;
+}
+
+body, html{
+	height: 100%;
+	width: 100%;
+}
+
 body {
 	font-family: arial;
+	text-align: center;
+	background: #DBA8AC;
 }
-figure {
-	width: 20%;
-	float: left;
+
+a{
+	color: #6A706E;
+}
+
+a:hover{
+	color: #2E4057;
+}
+
+a:visited{
+	color: #957964;
 }
 
 figure img {
 	width: 100%;
 }
 
-figcaption {
-	text-align: right;
+#gallery{
+	float: left;
+	padding-top: 290px;
+	padding-left: 150px;
 }
 
+
+#gallery_col2{
+	float: left;
+	padding-left: 150px;
+}
+
+#gallery_col3{
+	float: right;
+	padding-top: 290px;
+	padding-right: 150px;
+}
+
+#gallery-col4{
+	float: right;
+	padding-right: 150px;
+}
